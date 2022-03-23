@@ -1,0 +1,17 @@
+
+Nesse exercicio, consegui escrever um código melhor do que os anteriores.
+
+Anteriormente, não estava declarando as variáveis no inicio do código. Não sabia que era uma boa prática na linguagem Java, mas eu mesmo já estava achando o código feio com várias entre a trechos de saida.
+Dessa forma, declarei as variaveis e seus tipos no inicio do código. 
+Percebi que ao não declarar o tipo da váriavel, era necessário usar um método de conversão de tipo porteriormente, o que eu sabia que não era o ideal, mas não soube fazer de uma melhor forma.
+
+Exemplo de como estava fazendo antes:
+       \** int numero2Convertido = Integer.parseInt(numero2); **\
+
+Foi uma modificação simples, mas gostei do resultado :)
+
+Além disso, aprendi que o Scanner possui diversos métodos de entrada. Antes acredita, que lia apenas Strings.
+Nesse exercicio, já comecei a utilizar os métodos correspondentes aos tipos das variaveis criadas.
+
+       \** double kmRodado;
+            kmRodado = leitor.nextDouble(); **\
