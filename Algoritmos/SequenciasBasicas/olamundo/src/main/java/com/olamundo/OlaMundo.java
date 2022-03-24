@@ -5,8 +5,8 @@
 package com.olamundo;
 
 /**
- *
- * @author Augs_
+1) Escreva um programa que mostre na tela a mensagem "Olá, Mundo!"
+
  */
 public class OlaMundo {
     public static void main(String[] args) {

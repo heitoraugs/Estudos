@@ -1,14 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.somadoisnumeros;
 
 import java.util.Scanner;
 
 /**
- *
- * @author Augs_
+4) Desenvolva um algoritmo que leia dois números inteiros e mostre o somatório
+entre eles.
+Ex:
+Digite um valor: 8
+Digite outro valor: 5
+A soma entre 8 e 5 é igual a 13.
  */
 public class SomaDoisNumeros {
     

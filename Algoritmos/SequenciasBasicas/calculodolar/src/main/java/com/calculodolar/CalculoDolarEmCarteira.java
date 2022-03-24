@@ -7,8 +7,8 @@ package com.calculodolar;
 import java.util.Scanner;
 
 /**
- *
- * @author Augs_
+9) Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$)
+e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
  */
 public class CalculoDolarEmCarteira {
     
@@ -16,11 +16,11 @@ public class CalculoDolarEmCarteira {
         
         Scanner leitor = new Scanner(System.in);
         
-        System.out.println("Vamos calcular quantos dolares você pode comprar!\n Informe quantos reais você tem: ");
+        System.out.println("Vamos calcular quantos dolares você pode comprar!\nInforme quantos reais você tem: ");
         String reais = leitor.nextLine();
         
         float reaisConvertido = Float.parseFloat(reais);
-        double cotacaoDolar = 5.08;
+        double cotacaoDolar = 3.45;
         
         float conversao = (float) (reaisConvertido / cotacaoDolar);
        
