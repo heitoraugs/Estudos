@@ -19,22 +19,19 @@ public class EquacaoSegundoGrau {
         System.out.println("-----CALCULO EQUAÇÃO DE SEGUNDO GRAU-----");
 
         System.out.println("Informe o valor de A: ");
-        var valorA = leitor.nextLine();
+        var valorA = leitor.nextInt();
 
         System.out.println("Informe o valor de B: ");
-        var valorB = leitor.nextLine();
+        var valorB = leitor.nextInt();
 
         System.out.println("Informe o valor de C: ");
-        var valorC = leitor.nextLine();
+        var valorC = leitor.nextInt();
 
-        int valorAInt = Integer.parseInt(valorA);
-        int valorBInt = Integer.parseInt(valorB);
-        int valorCInt = Integer.parseInt(valorC);
-
-        var calculoDelta = (Math.pow(valorBInt, 2) - (4 * valorAInt) * valorCInt);              
-        var calculoXNegativo = (-(valorBInt) - Math.sqrt(calculoDelta)) / (2 * valorAInt);
-        var calculoXPositivo = (-(valorBInt) + Math.sqrt(calculoDelta)) / (2 * valorAInt);
+        var calculoDelta = (Math.pow(valorB, 2) - (4 * valorA) * valorC);              
+        var calculoXNegativo = (-(valorB) - Math.sqrt(calculoDelta)) / (2 * valorA);
+        var calculoXPositivo = (-(valorB) + Math.sqrt(calculoDelta)) / (2 * valorA);
         
         System.out.println("Os resultados possiveis para essa equação: Positivo " + calculoXPositivo + "\tNegativo: " + calculoXNegativo);
+        System.out.println(calculoDelta);
     }
 }
